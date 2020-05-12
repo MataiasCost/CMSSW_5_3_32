@@ -39,33 +39,32 @@ cd ../../amostras/
 hadd -f ttbar.root ttbar1.root ttbar2.root ttbar3.root ttbar4.root ttbar5.root ttbar6.root
 hadd -f data.root  MuEG.root  DoubleMu.root DoubleEl.root MET.root METB.root
 
-mv data.root /eos/user/m/mcostare/amostras_matheus/
-mv ttbar.root /eos/user/m/mcostare/amostras_matheus/
+
 
 rm ttbar1.root ttbar2.root ttbar3.root ttbar4.root ttbar5.root ttbar6.root METB.root MuEG.root MET.root DoubleMu.root DoubleEl.root 
 
 cd ../condor_DY_50/root && hadd -f DY_M50.root *.root
-mv DY_M50.root /eos/user/m/mcostare/amostras_matheus/
+mv DY_M50.root ../../amostras/
 
 cd ../../condor_DY_10_50/root && hadd -f DY_M10_50.root *.root
-mv DY_M10_50.root /eos/user/m/mcostare/amostras_matheus/
+mv DY_M10_50.root ../../amostras/
 
 
 cd ../../condor_TW/root && hadd -f TW.root *.root
-mv TW.root /eos/user/m/mcostare/amostras_matheus/
+mv TW.root ../../amostras/
 
 cd ../../condor_TWb/root && hadd -f TWb.root *.root
-mv TWb.root /eos/user/m/mcostare/amostras_matheus/
+mv TWb.root ../../amostras/
 
 cd ../../condor_WJet/root && hadd -f WJet.root *.root
-mv WJet.root /eos/user/m/mcostare/amostras_matheus/
+mv WJet.root ../../amostras/
 
 cd ../../condor_WW/root && hadd -f WW.root *.root
-mv WW.root /eos/user/m/mcostare/amostras_matheus/
+mv WW.root ../../amostras/
 
 cd ../../condor_WZ/root && hadd -f WZ.root *.root
-mv WZ.root /eos/user/m/mcostare/amostras_matheus/
+mv WZ.root ../../amostras/
 
 cd ../../condor_ZZ/root && hadd -f ZZ.root *.root
-mv ZZ.root /eos/user/m/mcostare/amostras_matheus/
+mv ZZ.root ../../amostras/
 
