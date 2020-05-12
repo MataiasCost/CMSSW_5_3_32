@@ -1,0 +1,6 @@
+Para rodar o programa basta seguis os seguintes comandos:
+1-cmsenv
+2-scram b
+3-bash primeiro.sh
+
+O programa rodara em condor. Demora por volta de 1 dia, e ele submete o total de 35 mil jobs.
